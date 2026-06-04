@@ -6,39 +6,36 @@ const mySkills = [
   {
     category: "Frontend Development",
     items: [
-      "ReactJS", "Next.js", "HTML5", "CSS3", "Tailwind CSS", 
-      "JavaScript (ES6+)", "TypeScript", "Redux Toolkit", "React Redux",
-      "React Router", "Radix UI", "Shadcn UI", "React Hook Form", 
-      "Axios", "React Hot Toast", "Zod"
+      "Next.js", "React.js", "TypeScript", "JavaScript (ES6+)",
+      "HTML5", "CSS3", "Tailwind CSS", "Redux Toolkit",
+      "React Hook Form", "Zod", "Shadcn UI", "Axios"
     ]
   },
   {
     category: "Backend Development",
     items: [
-      "Node.js", "Express.js", "Hono", "Bun", "Socket.io", 
-      "WebSockets (ws)", "RabbitMQ (amqplib)", "REST APIs", "GraphQL", 
-      "Cloudinary Integration", "Swagger API Docs", "JWT Authentication", "bcryptjs"
+      "Node.js", "Express.js", "WebSockets (ws)",
+      "RabbitMQ (amqplib)", "REST APIs", "JWT Authentication",
+      "NextAuth.js", "Resend (Email API)"
     ]
   },
   {
     category: "Databases",
     items: [
-      "PostgreSQL", "MongoDB", "Prisma ORM", "Mongoose", 
-      "Redis", "Neon DB", "Supabase"
+      "PostgreSQL", "MongoDB", "Prisma ORM", "Mongoose"
     ]
   },
   {
-    category: "DevOps & Cloud",
+    category: "DevOps & Tools",
     items: [
-      "Docker", "Vercel", "Render", "Railway", 
-      "AWS (S3, EC2)", "GitHub Actions", "Nginx", "Linux Server (DigitalOcean)"
+      "Docker", "Docker Compose", "Nginx", "Linux (DigitalOcean)",
+      "Vercel", "Git", "GitHub", "VS Code", "Postman", "NPM"
     ]
   },
   {
-    category: "Tools & Package Managers",
+    category: "AI & Integrations",
     items: [
-      "Git", "GitHub", "VS Code", "Postman", "Figma", 
-      "Jira", "NPM", "PNPM", "Yarn"
+      "Vercel AI SDK", "OpenAI API", "AI Integration"
     ]
   }
 ]

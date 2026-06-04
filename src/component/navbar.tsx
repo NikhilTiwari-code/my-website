@@ -18,11 +18,13 @@ export default function Navbar() {
 
       {/* Right: CTA */}
       <Link
-        href="mailto:91970tiwarinikhil@gmail.com"
+        href="https://wa.me/9708413995?text=Hi%20Nikhil%2C%20I%20wanted%20to%20connect%20with%20you!"
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-[#2ecc71] hover:bg-[#25b562] text-white text-xs sm:text-sm 
                    font-semibold px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition-colors duration-200 shadow-sm"
       >
-        Hire a FullStack Developer
+        Contact Me
       </Link>
     </nav>
   )

@@ -36,7 +36,9 @@ export default function ProfileCard({
             I am <span className="text-[#0bd27c] font-semibold">available</span> for hire
           </span>
           <a
-            href="mailto:91970tiwarinikhil@gmail.com"
+            href="https://wa.me/9708413995?text=Hi%20Nikhil%2C%20I%20would%20like%20to%20hire%20you!"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#0bd27c] hover:bg-[#0aa160] text-white text-[13.5px] font-bold py-2 px-4 rounded-sm transition-colors duration-200 shadow-sm whitespace-nowrap"
           >
             Hire Me
@@ -45,22 +47,16 @@ export default function ProfileCard({
       </div>
 
       {/* ── RIGHT: Info ── */}
-      <div className="flex-1 p-6 md:p-8 flex flex-col justify-between">
-        <div>
-          {/* Header row: Verified Badge */}
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-[10px] font-bold text-[#0f256e] tracking-widest uppercase bg-[#edf4fc] px-2.5 py-0.5 rounded border border-[#c2d9f0]">
-              Verified Developer
-            </span>
-          </div>
+      <div className="flex-1 p-6 md:p-8 flex flex-col gap-4">
 
-          {/* Name */}
-          <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight mb-2">
+        {/* Name */}
+        <div>
+          <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight mb-1">
             {name}
           </h1>
 
           {/* Title & Location */}
-          <div className="flex flex-wrap items-center gap-y-2 gap-x-4 text-sm text-slate-600 mb-6">
+          <div className="flex flex-wrap items-center gap-y-1.5 gap-x-4 text-sm text-slate-600">
             <span className="flex items-center gap-1.5 font-medium">
               <Briefcase size={15} className="text-slate-400" />
               {role}
@@ -70,28 +66,27 @@ export default function ProfileCard({
               {location}
             </span>
           </div>
+        </div>
 
-          {/* Expertise tags */}
-          <div className="mb-4">
-            <p className="text-[10.5px] font-bold text-slate-400 tracking-wider uppercase mb-2">
-              Primary Expertise
-            </p>
-            <div className="flex flex-wrap gap-1.5">
-              {expertise.map((tag) => (
-                <span
-                  key={tag}
-                  className="text-[11px] text-[#0f256e] font-semibold bg-[#edf4fc] border 
-                             border-[#c2d9f0] rounded-full px-2.5 py-0.5"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+        {/* Expertise tags */}
+        <div>
+          <p className="text-[10.5px] font-bold text-slate-400 tracking-wider uppercase mb-2">
+            Expertise
+          </p>
+          <div className="flex flex-wrap gap-1.5">
+            {expertise.map((tag) => (
+              <span
+                key={tag}
+                className="text-[11px] text-[#0f256e] font-semibold bg-[#edf4fc] border border-[#c2d9f0] rounded-full px-2.5 py-0.5"
+              >
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
 
         {/* Divider */}
-        <hr className="border-slate-100 my-4" />
+        <hr className="border-slate-100" />
 
         {/* Short Bio */}
         <div>

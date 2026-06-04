@@ -3,9 +3,9 @@ import { Briefcase, Calendar, Award } from 'lucide-react'
 
 const experiences = [
   {
-    role: "Full-Stack Developer (SwiftChat Project)",
+    role: "Full-Stack Developer — SwiftChat",
     company: "Self-Employed / Independent Project",
-    duration: "Jan 2024 - Present",
+    duration: "2026 – Present",
     description: "Designed, engineered, and deployed SwiftChat, a high-performance, real-time enterprise messaging application utilizing microservices architecture.",
     bullets: [
       "Built a highly responsive frontend using Next.js 16 (App Router), React 19, Redux Toolkit, and Tailwind CSS for smooth real-time UI state synchronization.",
@@ -13,20 +13,22 @@ const experiences = [
       "Integrated Prisma ORM with PostgreSQL (Supabase/Neon DB) for robust data relational schemas, writing highly optimized queries for chat logs and user profiles.",
       "Containerized both frontend and backend using Docker & Docker Compose, configured Nginx as a reverse proxy, and deployed to DigitalOcean Droplets using automated shell scripts."
     ],
-    tech: ["Next.js", "React 19", "Redux Toolkit", "Node.js", "Express", "WebSockets", "RabbitMQ", "PostgreSQL", "Prisma", "Docker", "Nginx", "Linux"]
+    tech: ["Next.js 16", "React 19", "Redux Toolkit", "Node.js", "Express", "WebSockets", "RabbitMQ", "PostgreSQL", "Prisma", "Docker", "Nginx", "Linux"]
   },
   {
-    role: "Full-Stack Web & AI Developer",
-    company: "Freelance / Self-Employed",
-    duration: "Jun 2023 - Dec 2023",
-    description: "Developed custom SaaS platforms, modern landing pages, and AI-powered web applications for global clients.",
+    role: "Full-Stack Developer — Mystery Message",
+    company: "Self-Employed / Independent Project",
+    duration: "Nov 2025 – Dec 2025",
+    description: "Designed and built Mystery Message — an anonymous messaging web app where users receive honest feedback without knowing who sent it, engineered end-to-end from auth to deployment.",
     bullets: [
-      "Integrated Vercel AI SDK and OpenAI APIs to build intelligent chat interfaces, automation agents, and context-aware data generation systems.",
-      "Crafted responsive and animated user interfaces with React, Next.js, Shadcn UI, and Tailwind CSS to increase client user engagement by 25%.",
-      "Designed and implemented RESTful APIs using Express.js and Hono, and integrated MongoDB (using Mongoose) and Supabase for real-time cloud data storage.",
-      "Utilized Git/GitHub Actions for continuous integration and deployed serverless APIs using Vercel, Railway, and Render."
+      "Built a responsive, server-rendered frontend using Next.js 15 (App Router) and TypeScript, with route-based code splitting, protected layouts, and a polished dashboard for managing anonymous messages.",
+      "Implemented a complete authentication flow with NextAuth.js — including credential sign-up, email OTP verification via Resend, and session-aware middleware for route protection.",
+      "Enforced end-to-end type safety using Zod for all API request/response validation, eliminating runtime data errors across client and server.",
+      "Architected a MongoDB (Mongoose) data layer with aggregation pipelines for efficient message fetching, and toggle-based controls to accept or block incoming messages.",
+      "Integrated an AI message suggestion API to generate smart, context-aware prompts for senders, reducing friction and increasing engagement on public profile pages.",
+      "Designed a public-facing /u/[username] route where anyone can anonymously submit messages — zero login required, fully validated, spam-resistant."
     ],
-    tech: ["Next.js", "ReactJS", "TypeScript", "Vercel AI SDK", "OpenAI API", "Tailwind CSS", "Shadcn UI", "MongoDB", "Mongoose", "Supabase", "Git", "Vercel"]
+    tech: ["Next.js 15", "TypeScript", "MongoDB", "Mongoose", "NextAuth.js", "Zod", "Resend", "React Email", "React Hook Form", "Tailwind CSS", "shadcn/ui", "Axios", "Vercel"]
   }
 ]
 

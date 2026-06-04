@@ -12,12 +12,19 @@ const Nikhil = {
   location: "Varanasi, India",
   isAvailable: true,
   expertise: [
-    "Full-Stack Development", 
-    "Next.js & ReactJS", 
-    "Node.js & Express", 
-    "Real-Time Sockets", 
-    "AI Integration (OpenAI)", 
-    "SaaS & APIs"
+    "Full-Stack Development",
+    "Frontend Development",
+    "Backend Development",
+    "SaaS & API Development",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "WebSockets & Real-Time",
+    "Vercel AI SDK",
+    "OpenAI Integration",
+    "Landing Pages & Websites",
+    "TypeScript"
   ],
   bio: `I am a passionate Full-Stack Developer with 1+ years of hands-on experience building highly interactive, scalable, and modern web applications. Specialized in Next.js/React and Node.js/Express ecosystems, I love solving complex technical challenges—ranging from real-time bidirectional communication using WebSockets to integrating advanced AI engines like OpenAI and the Vercel AI SDK. I take pride in writing clean, type-safe code, containerizing with Docker, and setting up secure, optimized hosting solutions.`
 }
@@ -49,14 +56,10 @@ export default function Home() {
             <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm space-y-4">
               <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider pb-2 border-b border-slate-100 flex items-center gap-2">
                 <Shield size={16} className="text-[#0f256e]" />
-                Availability Details
+                Professional Details
               </h3>
               
               <div className="space-y-3.5 text-xs text-slate-600">
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold text-slate-400">Availability</span>
-                  <span className="text-[#2ecc71] font-bold">40+ hours/week</span>
-                </div>
                 <div className="flex justify-between items-center">
                   <span className="font-semibold text-slate-400">Preferred Role</span>
                   <span className="font-bold text-slate-800">FullStack Developer</span>

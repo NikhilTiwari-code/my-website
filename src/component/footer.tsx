@@ -35,9 +35,20 @@ const Footer = () => {
             
             <div className="flex flex-col gap-3">
               <h3 className="text-white font-semibold">Connect</h3>
-              <Link href="mailto:hello@example.com" className="text-[#9ab8d8] hover:text-white transition-colors text-sm flex items-center gap-2">
-                <FaEnvelope size={14} /> Contact Me
-              </Link>
+              <a
+                href="https://wa.me/9708413995?text=Hi%20Nikhil%2C%20I%20wanted%20to%20connect!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9ab8d8] hover:text-white transition-colors text-sm flex items-center gap-2"
+              >
+                <FaEnvelope size={14} /> Message on WhatsApp
+              </a>
+              <a
+                href="mailto:nikhiltiwari0296@gmail.com"
+                className="text-[#9ab8d8] hover:text-white transition-colors text-sm"
+              >
+                nikhiltiwari0296@gmail.com
+              </a>
             </div>
           </div>
         </div>
