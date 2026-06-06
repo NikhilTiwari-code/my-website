@@ -26,7 +26,7 @@ const Nikhil = {
     "Landing Pages & Websites",
     "TypeScript"
   ],
-  bio: `I am a passionate Full-Stack Developer with 1+ years of hands-on experience building highly interactive, scalable, and modern web applications. Specialized in Next.js/React and Node.js/Express ecosystems, I love solving complex technical challenges—ranging from real-time bidirectional communication using WebSockets to integrating advanced AI engines like OpenAI and the Vercel AI SDK. I take pride in writing clean, type-safe code, containerizing with Docker, and setting up secure, optimized hosting solutions.`
+  bio: `Full Stack Developer with 1+ years of hands-on experience shipping web applications end-to-end — comfortable across the entire stack, from designing REST APIs and database schemas on the backend to building responsive, component-driven UIs on the frontend. I prioritize writing clean, modular code that stays readable, maintainable, and easy to scale. My GitHub reflects how I think: structured projects, consistent commits, and real problems solved.`
 }
 
 export default function Home() {
@@ -68,10 +68,8 @@ export default function Home() {
                   <span className="font-semibold text-slate-400">Languages</span>
                   <span className="font-bold text-slate-800">English (Fluent), Hindi (Native)</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold text-slate-400">Cooperation Type</span>
-                  <span className="font-bold text-slate-800">Contract / Full-time Remote</span>
-                </div>
+
+
               </div>
             </div>
 
